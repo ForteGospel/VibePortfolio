@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig({
-  base: "/example_html/", // Adjust the base path to match your GitHub Pages repository name
+  base: "/VibePortfolio/", // Adjust the base path to match your GitHub Pages repository name
   server: {
     host: true,
     open: "/",
