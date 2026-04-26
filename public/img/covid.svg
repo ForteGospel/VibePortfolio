@@ -1,0 +1,67 @@
+<svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bar1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="180" fill="#0b0b12"/>
+
+  <!-- grid lines -->
+  <g stroke="#1e1e2e" stroke-width="1">
+    <line x1="48" y1="20"  x2="305" y2="20"/>
+    <line x1="48" y1="50"  x2="305" y2="50"/>
+    <line x1="48" y1="80"  x2="305" y2="80"/>
+    <line x1="48" y1="110" x2="305" y2="110"/>
+    <line x1="48" y1="140" x2="305" y2="140"/>
+  </g>
+
+  <!-- y axis -->
+  <line x1="48" y1="15" x2="48" y2="145" stroke="#333" stroke-width="1.5"/>
+  <!-- x axis -->
+  <line x1="48" y1="140" x2="308" y2="140" stroke="#333" stroke-width="1.5"/>
+
+  <!-- y-axis labels -->
+  <text x="40" y="143" font-family="monospace" font-size="8" fill="#555" text-anchor="end">0</text>
+  <text x="40" y="113" font-family="monospace" font-size="8" fill="#555" text-anchor="end">25k</text>
+  <text x="40" y="83"  font-family="monospace" font-size="8" fill="#555" text-anchor="end">50k</text>
+  <text x="40" y="53"  font-family="monospace" font-size="8" fill="#555" text-anchor="end">75k</text>
+  <text x="40" y="23"  font-family="monospace" font-size="8" fill="#555" text-anchor="end">100k</text>
+
+  <!-- bars (7 countries) -->
+  <rect x="58"  y="28"  width="22" height="112" rx="2" fill="url(#bar1)" opacity="0.9"/>
+  <rect x="90"  y="48"  width="22" height="92"  rx="2" fill="url(#bar1)" opacity="0.8"/>
+  <rect x="122" y="65"  width="22" height="75"  rx="2" fill="url(#bar2)" opacity="0.85"/>
+  <rect x="154" y="55"  width="22" height="85"  rx="2" fill="url(#bar1)" opacity="0.75"/>
+  <rect x="186" y="78"  width="22" height="62"  rx="2" fill="url(#bar2)" opacity="0.8"/>
+  <rect x="218" y="90"  width="22" height="50"  rx="2" fill="url(#bar1)" opacity="0.7"/>
+  <rect x="250" y="105" width="22" height="35"  rx="2" fill="url(#bar2)" opacity="0.75"/>
+
+  <!-- line chart overlay -->
+  <polyline
+    points="69,28 101,48 133,55 165,45 197,62 229,75 261,90"
+    fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <circle cx="69"  cy="28" r="3" fill="#f97316"/>
+  <circle cx="101" cy="48" r="3" fill="#f97316"/>
+  <circle cx="133" cy="55" r="3" fill="#f97316"/>
+  <circle cx="165" cy="45" r="3" fill="#f97316"/>
+  <circle cx="197" cy="62" r="3" fill="#f97316"/>
+  <circle cx="229" cy="75" r="3" fill="#f97316"/>
+  <circle cx="261" cy="90" r="3" fill="#f97316"/>
+
+  <!-- x-axis labels -->
+  <text x="69"  y="155" font-family="monospace" font-size="7" fill="#555" text-anchor="middle">US</text>
+  <text x="101" y="155" font-family="monospace" font-size="7" fill="#555" text-anchor="middle">BR</text>
+  <text x="133" y="155" font-family="monospace" font-size="7" fill="#555" text-anchor="middle">IN</text>
+  <text x="165" y="155" font-family="monospace" font-size="7" fill="#555" text-anchor="middle">RU</text>
+  <text x="197" y="155" font-family="monospace" font-size="7" fill="#555" text-anchor="middle">ES</text>
+  <text x="229" y="155" font-family="monospace" font-size="7" fill="#555" text-anchor="middle">UK</text>
+  <text x="261" y="155" font-family="monospace" font-size="7" fill="#555" text-anchor="middle">IT</text>
+
+  <!-- title -->
+  <text x="160" y="172" font-family="monospace" font-size="9" fill="#8888a8" text-anchor="middle">Covid-19 · Days since 100 infected</text>
+</svg>

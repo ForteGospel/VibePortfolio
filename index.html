@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonathan Quiben — Security Engineer & Game Developer</title>
+    <link href="/styles/main.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- NAV -->
+    <nav id="nav">
+      <a href="#home" class="nav-logo">JQ</a>
+      <ul class="nav-links">
+        <li><a href="#home"    class="nav-link"><span class="fn">.</span>home<span class="fn">()</span></a></li>
+        <li><a href="#about"   class="nav-link"><span class="fn">.</span>about<span class="fn">()</span></a></li>
+        <li><a href="#projects" class="nav-link"><span class="fn">.</span>projects<span class="fn">()</span></a></li>
+        <li><a href="#cv"      class="nav-link"><span class="fn">.</span>cv<span class="fn">()</span></a></li>
+        <li><a href="#contact" class="nav-link"><span class="fn">.</span>contact<span class="fn">()</span></a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <canvas id="hero-game"></canvas>
+      <div class="container">
+        <p class="hero-eyebrow">// security.exe &amp;&amp; game&#8209;dev.exe</p>
+        <h1 class="hero-name">Jonathan<br>Quiben</h1>
+        <div class="hero-roles">
+          <span class="role-tag games">Game Developer</span>
+          <span class="role-divider">×</span>
+          <span class="role-tag security">Security Engineer</span>
+        </div>
+        <p class="hero-bio">
+          A decade protecting networks by day, building worlds by night.<br>
+          Currently pursuing M.Des Game Design at Shenkar.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="https://www.zerogamedev.com" target="_blank" class="btn btn-ghost">zerogamedev.com ↗</a>
+        </div>
+        <p class="hero-game-hint">// mini-game active &nbsp;←&nbsp;→&nbsp;↑</p>
+      </div>
+      <p class="scroll-hint">scroll ↓</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="container">
+        <p class="section-label">// about</p>
+        <div class="about-grid">
+          <div class="about-text fade-in">
+            <h2>Dual Boot.</h2>
+            <p>
+              I've spent over a decade as a cybersecurity professional — building SIEM infrastructure,
+              hunting threats, and keeping critical systems safe at Payoneer and Isracard,
+              and before that in the Israeli Air Force's Ofek unit.
+            </p>
+            <p>
+              But the other side of my brain has always belonged to games. Self-taught in Unity
+              during my CS degree, I've built rhythm games, VR shooters, and narrative adventures.
+              Now I'm formalizing that passion with a Master's in Game Design at Shenkar.
+            </p>
+            <p>
+              The intersection of both worlds — systems thinking, logic, player behavior,
+              challenge design — is where I do my best work.
+            </p>
+          </div>
+          <div class="about-skills fade-in">
+            <div class="skill-group">
+              <h4><span class="accent-cyan">›</span> Security</h4>
+              <ul>
+                <li>IBM QRadar SIEM</li>
+                <li>Wiz · Crowdstrike · PaloAlto XDR</li>
+                <li>Vulnerability Management (Tenable.IO)</li>
+                <li>Incident Response & Investigation</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h4><span class="accent-purple">›</span> Game Dev</h4>
+              <ul>
+                <li>Unity3D · C#</li>
+                <li>VR (Oculus Quest)</li>
+                <li>Blender · Maya</li>
+                <li>Photoshop · Premiere Pro</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h4><span class="accent-cyan">›</span> Code</h4>
+              <ul>
+                <li>C# · Python · PowerShell</li>
+                <li>Windows · Linux</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <p class="section-label">// projects</p>
+        <h2 class="section-title">Selected Work</h2>
+        <ol class="projects-list">
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">01</span>
+              <span class="project-name">Captain Toad: Mystical Realms</span>
+              <span class="project-tag-inline">AR/MR · Meta Quest 3 · Unity</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="https://img.youtube.com/vi/JTx5DzEnwOc/maxresdefault.jpg" alt="Captain Toad: Mystical Realms screenshot" loading="lazy">
+    <div class="project-row-content">
+              <p>Mixed Reality remake of Captain Toad for Meta Quest 3. Features puzzle-platforming with hand-tracking interactions, controller support, and a multiplayer mode — all in augmented reality.</p>
+              <div class="project-links">
+                <button class="project-link project-link--yt" data-video="JTx5DzEnwOc" data-title="Captain Toad: Mystical Realms — Trailer">▶ Watch Trailer</button>
+                <button class="project-link project-link--yt" data-video="OYp17DnwsdE" data-title="Captain Toad: Mystical Realms — AR Short">▶ AR Short</button>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">02</span>
+              <span class="project-name">DuckHunt VR</span>
+              <span class="project-tag-inline">VR · Unity · Oculus Quest</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="https://img.youtube.com/vi/8qE4nLem5Gk/maxresdefault.jpg" alt="DuckHunt VR gameplay screenshot" loading="lazy">
+    <div class="project-row-content">
+              <p>An Oculus Quest VR shooter built with original pixel art and sound design. Ducks spawn across 6 surrounding planes, creating a fully immersive 360° shooting gallery experience.</p>
+              <div class="project-links">
+                <button class="project-link project-link--yt" data-video="8qE4nLem5Gk" data-title="DuckHunt VR — Oculus Quest">▶ Watch</button>
+                <a href="https://www.zerogamedev.com/projects" target="_blank" class="project-link">View on Site →</a>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">03</span>
+              <span class="project-name">Galactic Skies</span>
+              <span class="project-tag-inline">Unity · Space Shooter · Solo</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="https://img.youtube.com/vi/SLh29h6AdGw/maxresdefault.jpg" alt="Galactic Skies gameplay screenshot" loading="lazy">
+    <div class="project-row-content">
+              <p>A solo indie Star Fox-style space shooter featuring precision combat, charged attacks, barrel rolls, and high-speed piloting mechanics. Built entirely in Unity.</p>
+              <div class="project-links">
+                <button class="project-link project-link--yt" data-video="SLh29h6AdGw" data-title="Galactic Skies — WIP">▶ Watch WIP</button>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">04</span>
+              <span class="project-name">Pokémon Pinball 3D</span>
+              <span class="project-tag-inline">Blender · Unity · 3D Remake</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="https://img.youtube.com/vi/Ud5aR0cTwkE/maxresdefault.jpg" alt="Pokémon Pinball 3D screenshot" loading="lazy">
+    <div class="project-row-content">
+              <p>Recreation of the classic Game Boy Pokémon Pinball table modelled in Blender, then imported into Unity as a fully playable 3D game. A love letter to retro handhelds.</p>
+              <div class="project-links">
+                <button class="project-link project-link--yt" data-video="Ud5aR0cTwkE" data-title="Pokémon Pinball 3D">▶ Watch</button>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">05</span>
+              <span class="project-name">The Sparking Thief</span>
+              <span class="project-tag-inline">Unity · Stealth · Original</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="https://img.youtube.com/vi/FMN9eeSn70Q/maxresdefault.jpg" alt="The Sparking Thief gameplay screenshot" loading="lazy">
+    <div class="project-row-content">
+              <p>A stealth adventure where a flame cat must hide within light sources to evade jungle enemies. Unique core mechanic built around the concept of using fire as camouflage.</p>
+              <div class="project-links">
+                <button class="project-link project-link--yt" data-video="FMN9eeSn70Q" data-title="The Sparking Thief">▶ Watch</button>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">06</span>
+              <span class="project-name">DDR Sona</span>
+              <span class="project-tag-inline">Unity · Rhythm · League of Legends</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="https://img.youtube.com/vi/ED-koBbTeUs/maxresdefault.jpg" alt="DDR Sona rhythm game screenshot" loading="lazy">
+    <div class="project-row-content">
+              <p>A rhythm game series inspired by League of Legends champion Sona. Players match directional inputs to color-coded abilities. Three versions built — Arcade, DJ, and PentaKill editions.</p>
+              <div class="project-links">
+                <button class="project-link project-link--yt" data-video="ED-koBbTeUs" data-title="DDR Sona — PentaKill Edition">▶ PentaKill</button>
+                <button class="project-link project-link--yt" data-video="3kNL1aOeluM" data-title="DDR Sona — DJ Edition">▶ DJ</button>
+                <button class="project-link project-link--yt" data-video="R1Kh8aYsNNg" data-title="DDR Sona — Arcade Edition">▶ Arcade</button>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">07</span>
+              <span class="project-name">Match3 Gamble Your Life Away</span>
+              <span class="project-tag-inline">Unity · Puzzle · Match-3</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="https://img.youtube.com/vi/GJrKiS7C2bs/maxresdefault.jpg" alt="Match3 Gamble Your Life Away screenshot" loading="lazy">
+    <div class="project-row-content">
+              <p>A match-3 game with a twist — tile-swapping mechanics collide with roulette and slot machine gameplay for high-risk, high-reward play sessions.</p>
+              <div class="project-links">
+                <button class="project-link project-link--yt" data-video="GJrKiS7C2bs" data-title="Match3 Gamble Your Life Away">▶ Watch</button>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">08</span>
+              <span class="project-name">3 Mini Games in 3 Weeks</span>
+              <span class="project-tag-inline">Unity · Challenge</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="https://img.youtube.com/vi/1WbO5_Mv0Hs/maxresdefault.jpg" alt="3 Mini Games in 3 Weeks screenshot" loading="lazy">
+    <div class="project-row-content">
+              <p>A self-imposed game dev challenge: build a match-3 puzzle game, an endless subway runner, and a multiplayer Bomberman-style racer — each in under a week.</p>
+              <div class="project-links">
+                <button class="project-link project-link--yt" data-video="1WbO5_Mv0Hs" data-title="3 Mini Games in 3 Weeks">▶ Watch</button>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">09</span>
+              <span class="project-name">Diestress</span>
+              <span class="project-tag-inline">Unity · Narrative · 6-person team</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="https://img.youtube.com/vi/m9fjWvk-BYI/maxresdefault.jpg" alt="Diestress narrative game screenshot" loading="lazy">
+    <div class="project-row-content">
+              <p>First-person narrative game exploring pandemic isolation. Players receive misinformation from media while maintaining long-distance relationships — a study in empathy through gameplay.</p>
+              <div class="project-links">
+                <button class="project-link project-link--yt" data-video="m9fjWvk-BYI" data-title="Diestress">▶ Watch</button>
+                <a href="https://www.zerogamedev.com/projects" target="_blank" class="project-link">View on Site →</a>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">10</span>
+              <span class="project-name">A Link to the Present</span>
+              <span class="project-tag-inline">Unity · 3D · Zelda Fan</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="https://img.youtube.com/vi/4t850tozphU/maxresdefault.jpg" alt="A Link to the Present screenshot" loading="lazy">
+    <div class="project-row-content">
+              <p>A 2D-to-3D recreation of Zelda: A Link to the Past's first dungeon — dynamic room loading, sword combo mechanics, shield defense, and a full item interaction system.</p>
+              <div class="project-links">
+                <button class="project-link project-link--yt" data-video="4t850tozphU" data-title="A Link to the Present">▶ Watch</button>
+                <a href="https://github.com/ForteGospel/QuestForChoice" target="_blank" class="project-link">GitHub →</a>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">11</span>
+              <span class="project-name">SteamVenture</span>
+              <span class="project-tag-inline">Unity · Steampunk · ShaderLab · Team</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="/img/steamventure.svg" alt="SteamVenture steampunk game illustration" loading="lazy">
+    <div class="project-row-content">
+              <p>A steampunk adventure game about a robot saving a malfunctioning city. Collaborative project spanning development, UX/UI, art direction, and narrative design.</p>
+              <div class="project-links">
+                <a href="https://github.com/ForteGospel/SteamPunk_FinalProject" target="_blank" class="project-link">GitHub →</a>
+                <a href="https://www.zerogamedev.com/projects" target="_blank" class="project-link">View on Site →</a>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">12</span>
+              <span class="project-name">Perlin Noise Platformer</span>
+              <span class="project-tag-inline">Unity · Procedural · C#</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="/img/perlin.svg" alt="Perlin Noise Platformer procedural terrain" loading="lazy">
+    <div class="project-row-content">
+              <p>A procedurally generated 2D platformer using Perlin noise for infinite terrain generation. Explores the intersection of algorithms and playable game spaces.</p>
+              <div class="project-links">
+                <a href="https://github.com/ForteGospel/PerlinNoise-Platformer" target="_blank" class="project-link">GitHub →</a>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">13</span>
+              <span class="project-name">Covid-19 Data Visualizer</span>
+              <span class="project-tag-inline">Python · Data · Plotly</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="/img/covid.svg" alt="Covid-19 data visualization chart" loading="lazy">
+    <div class="project-row-content">
+              <p>Interactive Plotly visualizations of COVID-19 statistics — cases, trends, and geographic spread. Applying analytical thinking from cybersecurity to public health data.</p>
+              <div class="project-links">
+                <a href="https://github.com/ForteGospel/Covid-19-Plotly-Graphs" target="_blank" class="project-link">GitHub →</a>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+          <li class="project-row fade-in">
+            <button class="project-row-header" aria-expanded="false">
+              <span class="project-num">14</span>
+              <span class="project-name">Bartop Arcade</span>
+              <span class="project-tag-inline">Hardware · Raspberry Pi · DIY</span>
+              <span class="project-chevron" aria-hidden="true"></span>
+            </button>
+            <div class="project-row-body">
+  <div class="project-row-inner">
+    <img class="project-row-img" src="https://static.wixstatic.com/media/9ed075_7f23081eb5144750afc35a52e029306f~mv2.jpeg" alt="Custom bartop arcade cabinet" loading="lazy">
+    <div class="project-row-content">
+              <p>Custom-built arcade cabinet powered by a Raspberry Pi. Runs 300+ games across 10+ emulators — a complete hardware and software build from scratch.</p>
+              <div class="project-links">
+                <a href="https://www.zerogamedev.com/projects" target="_blank" class="project-link">View on Site →</a>
+    </div>
+  </div>
+</div>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="cv-section">
+      <canvas id="cv-game"></canvas>
+      <div class="container">
+        <p class="section-label">// experience</p>
+        <h2 class="section-title">Career</h2>
+        <div class="cv-layout">
+
+          <!-- DUAL TIMELINE -->
+          <div class="dual-timeline fade-in">
+
+            <!-- column headers: Education left, Work right -->
+            <div class="dt-col-title dt-right">
+              <span class="dt-header-dot dt-dot--study"></span> Education
+            </div>
+            <div></div>
+            <div class="dt-col-title">
+              <span class="dt-header-dot dt-dot--job"></span> Work
+            </div>
+
+            <!-- Present: both timelines active -->
+            <div class="dt-cell dt-right">
+              <h4>M.Des — Game Dev &amp; Design</h4>
+              <p class="dt-org dt-org--study">Shenkar College · 2024 – Present</p>
+            </div>
+            <div class="dt-axis">
+              <span class="dt-year">2024</span>
+              <span class="dt-dot dt-dot--study"></span>
+              <span class="dt-dot dt-dot--job"></span>
+            </div>
+            <div class="dt-cell">
+              <h4>Senior Security Engineer</h4>
+              <p class="dt-org dt-org--job">Payoneer · 2016 – Present</p>
+              <ul class="dt-bullets">
+                <li>QRadar SIEM — log sources, parsers, rules</li>
+                <li>Incident response &amp; mitigation</li>
+                <li>Cloud security via Wiz on AWS &amp; Azure</li>
+                <li>Vulnerability management via Tenable.IO</li>
+                <li>Bug bounty, endpoint protection, DMARC</li>
+                <li>Tooling in C#, PowerShell, Python</li>
+              </ul>
+            </div>
+
+            <!-- 2022: Teaching Assistant -->
+            <div class="dt-cell dt-right"></div>
+            <div class="dt-axis">
+              <span class="dt-year">2022</span>
+              <span class="dt-dot dt-dot--job"></span>
+            </div>
+            <div class="dt-cell">
+              <h4>Teaching Assistant — Unity3D &amp; C#</h4>
+              <p class="dt-org dt-org--job">Open University · 2022 · Part-time</p>
+              <ul class="dt-bullets">
+                <li>Taught C# in Unity3D to beginner game developers</li>
+                <li>Guided student teams through project architecture</li>
+              </ul>
+            </div>
+
+            <!-- 2020: Game Dev Course -->
+            <div class="dt-cell dt-right">
+              <h4>Game Dev &amp; Design Course</h4>
+              <p class="dt-org dt-org--study">Open University · 2020 – 2022</p>
+            </div>
+            <div class="dt-axis">
+              <span class="dt-year">2020</span>
+              <span class="dt-dot dt-dot--study"></span>
+            </div>
+            <div class="dt-cell"></div>
+
+            <!-- 2014: B.Sc -->
+            <div class="dt-cell dt-right">
+              <h4>B.Sc — Computer Science</h4>
+              <p class="dt-org dt-org--study">H.I.T. (Holon Institute of Technology) · 2014 – 2018</p>
+            </div>
+            <div class="dt-axis">
+              <span class="dt-year">2014</span>
+              <span class="dt-dot dt-dot--study"></span>
+            </div>
+            <div class="dt-cell"></div>
+
+            <!-- 2013: Isracard -->
+            <div class="dt-cell dt-right"></div>
+            <div class="dt-axis">
+              <span class="dt-year">2013</span>
+              <span class="dt-dot dt-dot--job"></span>
+            </div>
+            <div class="dt-cell">
+              <h4>Information Security Analyst</h4>
+              <p class="dt-org dt-org--job">Isracard · 2013 – 2016</p>
+              <ul class="dt-bullets">
+                <li>Led DLP project (Safend &amp; Symantec Mail DLP)</li>
+                <li>SIEM integration, log parsers &amp; rules</li>
+                <li>Vulnerability scanning via Nessus</li>
+              </ul>
+            </div>
+
+            <!-- 2008: MCSE cert + IAF -->
+            <div class="dt-cell dt-right">
+              <h4>MCSE: Enterprise Admin</h4>
+              <p class="dt-org dt-org--study">Microsoft Certification · 2008</p>
+            </div>
+            <div class="dt-axis">
+              <span class="dt-year">2008</span>
+              <span class="dt-dot dt-dot--study"></span>
+              <span class="dt-dot dt-dot--job"></span>
+            </div>
+            <div class="dt-cell">
+              <h4>SIEM/SOC &amp; Computer Forensics</h4>
+              <p class="dt-org dt-org--job">Israel Air Force — Ofek Unit · 2008 – 2013 · Sgt</p>
+              <ul class="dt-bullets">
+                <li>Security monitoring across air &amp; ground systems</li>
+                <li>High-impact incident investigation</li>
+                <li>SOC methodology &amp; real-time response tooling</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <aside class="cv-sidebar fade-in">
+            <div class="sidebar-block">
+              <h4>Certifications</h4>
+              <ul>
+                <li>MCSE: Enterprise Admin — 2008</li>
+                <li>IBM QRadar Certified Associate</li>
+              </ul>
+            </div>
+            <div class="sidebar-block">
+              <h4>Languages</h4>
+              <ul>
+                <li>Spanish — Native</li>
+                <li>Hebrew — Native</li>
+                <li>English — Native</li>
+              </ul>
+            </div>
+            <div class="sidebar-block">
+              <h4>Tools & Tech</h4>
+              <div class="tools-tags">
+                <span>Unity3D</span>
+                <span>C#</span>
+                <span>Python</span>
+                <span>PowerShell</span>
+                <span>QRadar</span>
+                <span>Wiz</span>
+                <span>Crowdstrike</span>
+                <span>PaloAlto XDR</span>
+                <span>Tenable.IO</span>
+                <span>Blender</span>
+                <span>Maya</span>
+                <span>Photoshop</span>
+                <span>Premiere Pro</span>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <p class="section-label">// contact</p>
+        <h2 class="section-title fade-in">Get In Touch</h2>
+        <p class="contact-sub fade-in">Open to collaborations, interesting projects, and conversations.</p>
+        <a href="mailto:jonycapo89@gmail.com" class="btn btn-primary fade-in">jonycapo89@gmail.com</a>
+        <div class="social-links fade-in">
+          <a href="https://www.zerogamedev.com" target="_blank">zerogamedev.com</a>
+          <a href="https://github.com/ForteGospel" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/jonathan-quiben/" target="_blank">LinkedIn</a>
+          <a href="https://www.youtube.com/@zerogamedev" target="_blank">YouTube</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        <span class="footer-name">Jonathan Quiben</span>
+        <span class="footer-sep">·</span>
+        <span class="footer-tag footer-tag--game">Game Developer</span>
+        <span class="footer-sep">×</span>
+        <span class="footer-tag footer-tag--sec">Security Engineer</span>
+        <span class="footer-sep">·</span>
+        <span class="footer-copy">// no frameworks were harmed &nbsp;·&nbsp; © 2025</span>
+      </p>
+    </footer>
+
+    <!-- VIDEO MODAL -->
+    <div id="video-modal" class="modal" role="dialog" aria-modal="true" aria-label="Video player" hidden>
+      <div class="modal-backdrop"></div>
+      <div class="modal-box">
+        <div class="modal-header">
+          <p class="modal-title" id="modal-title"></p>
+          <button class="modal-close" aria-label="Close video">✕</button>
+        </div>
+        <div class="modal-embed">
+          <iframe
+            id="modal-iframe"
+            src=""
+            title="YouTube video player"
+            frameborder="0"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

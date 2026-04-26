@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.zerogamedev.com)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' https://img.youtube.com/vi/__TRACKED_VAR__/maxresdefault.jpg)",
+      "Bash(curl -s \"https://www.zerogamedev.com/projects\")",
+      "Read(//private/tmp/**)",
+      "Bash(curl -s -o img1.jpg \"https://static.wixstatic.com/media/9ed075_34f3e4de45c04e029b3f7612931e5f7f~mv2.jpg\")",
+      "Bash(sips -g pixelWidth -g pixelHeight img1.jpg)",
+      "Bash(curl -s https://api.github.com/repos/ForteGospel/__TRACKED_VAR__/contents)",
+      "Bash(python3 -c \"import sys,json; [print\\(x['name']\\) for x in json.load\\(sys.stdin\\) if isinstance\\(x,dict\\)]\" done)",
+      "Bash(node *)",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(npx vite *)",
+      "Bash(echo \"PID: $!\")"
+    ]
+  }
+}
